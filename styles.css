@@ -1,0 +1,31 @@
+
+
+/* overlay this styles on all window drey */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    z-index: 1;
+    display: flex;
+}
+
+/* this modal window aqua */
+.modal {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: auto;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* hide aur modal on monitor */
+.hide {
+    display: none;
+}
